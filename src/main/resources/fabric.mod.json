@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "yxs",
+	"version": "${version}",
+	"name": "yxs",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/yxs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.yxs.mod.Yxs"
+		],
+		"client": [
+			"com.yxs.mod.YxsClient"
+		],
+		"fabric-datagen": [
+			"com.yxs.mod.YxsDataGenerator"
+		]
+	},
+	"mixins": [
+		"yxs.mixins.json",
+		{
+			"config": "yxs.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
