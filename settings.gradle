@@ -26,3 +26,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
+rootProject.name = 'YMcMod'
