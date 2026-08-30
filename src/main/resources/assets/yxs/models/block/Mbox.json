@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "yxs:block/Mbox_under",
+    "up": "yxs:block/Mbox_top",
+    "north": "yxs:block/Mbox_top",
+    "south": "yxs:block/Mbox_back",
+    "west": "yxs:block/Mbox_side",
+    "east": "yxs:block/Mbox_side"
+  }
+}
