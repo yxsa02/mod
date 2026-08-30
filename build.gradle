@@ -20,7 +20,7 @@ repositories {
 
 loom {
 	splitEnvironmentSourceSets()
-
+	mappings loom.officialMojangMappings()
 	mods {
 		"yxs" {
 			sourceSet sourceSets.main
